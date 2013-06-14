@@ -66,7 +66,7 @@ class Contenidos extends CActiveRecord
 			'idEjemplos' => array(self::BELONGS_TO, 'Ejemplos', 'id_ejemplos'),
 			'idEjercicios' => array(self::BELONGS_TO, 'Ejercicios', 'id_ejercicios'),
 			'idFuenteReferencias' => array(self::BELONGS_TO, 'Fuentes', 'id_fuente_referencias'),
-			'idLecciones' => array(self::BELONGS_TO, 'Lecciones', 'id_lecciones'),
+			'idlecciones' => array(self::BELONGS_TO, 'Lecciones', 'id_lecciones'),
 			'idMultimedia' => array(self::BELONGS_TO, 'Multimedia', 'id_multimedia'),
 		);
 	}
@@ -78,7 +78,7 @@ class Contenidos extends CActiveRecord
 	{
 		return array(
 			'id_contenidos' => 'Id Contenidos',
-			'id_lecciones' => 'Id Lecciones',
+			'id_lecciones' => 'Nombre de la leccion',
 			'id_ejemplos' => 'Id Ejemplos',
 			'id_ejercicios' => 'Id Ejercicios',
 			'id_fuente_referencias' => 'Id Fuente Referencias',
@@ -99,7 +99,8 @@ class Contenidos extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_contenidos',$this->id_contenidos);
-		$criteria->compare('id_lecciones',$this->id_lecciones);
+		$criteria->with =array('idlecciones');
+		$criteria->addSearchCondition('idlecciones.nb_lecciones', $this->id_lecciones);
 		$criteria->compare('id_ejemplos',$this->id_ejemplos);
 		$criteria->compare('id_ejercicios',$this->id_ejercicios);
 		$criteria->compare('id_fuente_referencias',$this->id_fuente_referencias);

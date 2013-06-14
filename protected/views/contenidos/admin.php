@@ -43,11 +43,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id_contenidos',
-		'id_lecciones',
+		array ('name'=>'idlecciones','value'=>'$data->idlecciones->nb_lecciones','type'=>'text',),
 		'id_ejemplos',
 		'id_ejercicios',
 		'id_fuente_referencias',
 		'id_multimedia',
+		array(
+		'name'=>'descrip_contenidos',
+		'type'=>'raw',
+		),
 		/*
 		'descrip_contenidos',
 		*/

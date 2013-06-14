@@ -20,7 +20,7 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id_contenidos',
-		'id_lecciones',
+		'idlecciones.nb_lecciones',
 		'id_ejemplos',
 		'id_ejercicios',
 		'id_fuente_referencias',

@@ -4,8 +4,8 @@
 	<?php echo CHtml::link(CHtml::encode($data->id_contenidos),array('view','id'=>$data->id_contenidos)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_lecciones')); ?>:</b>
-	<?php echo CHtml::encode($data->id_lecciones); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Nombre de la Leccion')); ?>:</b>
+	<?php echo CHtml::encode($data->idlecciones->nb_lecciones); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_ejemplos')); ?>:</b>

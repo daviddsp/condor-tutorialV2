@@ -1,6 +1,6 @@
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 	'id'=>'horizontalForm',
-'type'=>'horizontal',
+'type'=>'vertical',
 	'id'=>'contenidos-form',
 	'enableAjaxValidation'=>false,
 )); ?>
@@ -9,8 +9,8 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->textFieldRow($model,'id_lecciones',array('class'=>'span5')); ?>
-
+	<?php echo $form->dropDownList($model,'id_lecciones', CHtml::listData(Lecciones::model()->findAll(), 'id_lecciones', 'nb_lecciones'),array('prompt'=>'Seleccione la Lección','class'=>'span5')); ?>
+	
 	<?php echo $form->textFieldRow($model,'id_ejemplos',array('class'=>'span5')); ?>
 
 	<?php echo $form->textFieldRow($model,'id_ejercicios',array('class'=>'span5')); ?>

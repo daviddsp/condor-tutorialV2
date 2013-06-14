@@ -9,7 +9,7 @@
 
 	
 
-	<?php echo $form->dropDownList($model,'id_temas', CHtml::listData(Temas::model()->findAll(), 'id_temas', 'nb_temas')); ?>
+	<?php echo $form->dropDownList($model,'id_temas', CHtml::listData(Temas::model()->findAll(), 'id_temas', 'nb_temas'),array('prompt'=>'Seleccione el Tema ...','class'=>'span5')); ?>
 
 <!--	<?/*php echo $form->textFieldRow($model,'id_temas',array('class'=>'span5')); */?>-->
 
