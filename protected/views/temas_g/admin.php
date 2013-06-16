@@ -4,10 +4,10 @@ $this->breadcrumbs=array(
 	'Manage',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'List Temas','url'=>array('index')),
 	array('label'=>'Create Temas','url'=>array('create')),
-);
+);*/
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
@@ -47,6 +47,21 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'descrip_temas',
 		array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',
+		
+		'template' => '{view} {update}', //detalle de los botones 
+'buttons'=>array(
+'view' => array(
+'label'=>'ver lecciones',
+'url'=>"CHtml::normalizeUrl(array('/Temas/view', 'id'=>\$data->id_temas))",
+'imageUrl'=>Yii::app()->request->baseUrl.'/images/update.png', //ruta de la imagen del boton que queremos agregar
+//'options' => array('class'=>'vehiculo'),
+),
+),
+
+		
+	
+		
+		
 		),
 	),
 )); ?>

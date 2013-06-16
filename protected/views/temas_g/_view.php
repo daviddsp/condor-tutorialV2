@@ -1,22 +1,27 @@
 <div class="view">
+<?php $this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'temas-grid',
+	'type'=>'bordered',
+	'template'=>"{items}",
+	'dataProvider'=>$data->search(),
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_temas')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id_temas),array('view','id'=>$data->id_temas)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('nb_temas')); ?>:</b>
-	<?php echo CHtml::encode($data->nb_temas); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('descrip_temas')); ?>:</b>
-	<?php echo CHtml::encode($data->descrip_temas); ?>
-	<br />
-	
-<?php $this->widget('bootstrap.widgets.TbButtonGroup', array(
-'buttons'=>array(
-array('label'=>'Ver lista de lecciones', 'url'=>array('/Lecciones_g/index')),
+	'columns'=>array(
+		'id_temas',
+		'nb_temas',
+		'descrip_temas',
+		array(
+			'class'=>'bootstrap.widgets.TbButtonColumn',
+			'template' => '{view}', //detalle de los botones 
+			'buttons'=>array(
+				'view' => array(
+					'label'=>'Ver Lecciones',
+					'url'=>"CHtml::normalizeUrl(array('/Temas_g/view', 'id'=>\$data->id_temas))",
+					'imageUrl'=>Yii::app()->request->baseUrl.'/images/update.png', //ruta de la imagen del boton que queremos agregar
+					//'options' => array('class'=>'temas'),
+		  		),
+		 	),
+	    ),
 	),
-));
-
+)); 
 ?>
 </div>

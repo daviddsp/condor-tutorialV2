@@ -2010,9 +2010,9 @@ table {
 .table td {
   padding: 8px;
   line-height: 20px;
-  text-align: left;
+  text-align: justify;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 3px solid #dddddd;
 }
 
 .table th {

@@ -4,10 +4,10 @@ $this->breadcrumbs=array(
 	'Create',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'List Temas','url'=>array('index')),
 	array('label'=>'Manage Temas','url'=>array('admin')),
-);
+);*/
 ?>
 
 <h1>Create Temas</h1>

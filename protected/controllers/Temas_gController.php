@@ -32,11 +32,11 @@ class Temas_gController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('admin'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('*'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -54,6 +54,28 @@ class Temas_gController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
+	
+	/*public function actionView($id)
+    {
+$sql_count = "select count(*) from lecciones l
+        left join temas t on t.id_temas = l.id_temas
+        where t.id_temas = '$id'";
+
+    $sql="select l.id_lecciones, l.nb_lecciones, t.id_temas from temas t
+        left join lecciones l on l.id_temas = t.id_temas
+        where  t.id_temas = '$id' order by t.id_temas desc; ";
+        $lecciones = Yii::app() -> db -> createCommand($sql) ->  query();
+        $count_lecciones = Yii::app() -> db -> createCommand($sql_count) ->  queryScalar();
+//var_dump($declaracion);
+
+        $this->render('view',array(
+            'model'=>$this->loadModel($id),'lecciones'=>$lecciones,'count_lecciones'=>$count_lecciones,
+        ));
+    }
+*/
+
+
+
 
 	/**
 	 * Creates a new model.
