@@ -10938,3 +10938,600 @@ Stack trace:
 REQUEST_URI=/condor-tutorial-master/temas_g/images/cuc-logo.png
 HTTP_REFERER=http://localhost/condor-tutorial-master/temas_g/index
 ---
+2013/06/21 12:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Lecciones/image...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Lecciones/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Lecciones/index
+---
+2013/06/21 12:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Lecciones/image...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Lecciones/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Lecciones/index
+---
+2013/06/21 12:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/cu...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/88...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/cu...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/cu...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/88...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/cu...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/88...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/cu...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas/images/88...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas/index
+---
+2013/06/21 12:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.google.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.google.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.google.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/www....')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/www.google.com
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "www.google.com" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('www.google.com')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('www.google.com')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/www....')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/www.google.com
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Contenidos/imag...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Contenidos/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Contenidos/index
+---
+2013/06/21 12:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
+2013/06/21 12:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "images" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('images')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/view/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/HTML5-Semantics.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/HTML5-3D-Effects.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/twitter.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/HTML5-Logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/google-White.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/HTML5-Styling.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "index" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/image...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/images/HTML5-Multimedia.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "images" no fue encontrada.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('images')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/condor-tutorial-master/site/page/view/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/page/view/about
+---
+2013/06/21 12:30:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/cuc...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/site/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/contact
+---
+2013/06/21 12:30:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/88x...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/site/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/site/contact
+---
+2013/06/21 12:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/usuario/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/usuario/create
+---
+2013/06/21 12:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/usuario/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/usuario/create
+---
+2013/06/21 12:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/usuario/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/usuario/create
+---
+2013/06/21 12:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/usuario/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/usuario/create
+---
+2013/06/21 12:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
+2013/06/21 12:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
+2013/06/21 12:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/88x31.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
+2013/06/21 12:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Temas_g/images/...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/condor-tutorial-master/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condor-tutorial-master/Temas_g/images/cuc-logo.png
+HTTP_REFERER=http://localhost/condor-tutorial-master/Temas_g/index
+---
