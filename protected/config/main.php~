@@ -42,7 +42,7 @@ return array(
 	'components'=>array(
 
 		'bootstrap' => array(
-	    	'class' => 'ext.bootstrap.components.Bootstrap',
+	    	'class' => 'ext.Bootstrap.components.Bootstrap',
 	    	'responsiveCss' => true,
 	),		
 
@@ -71,8 +71,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'pgsql:host=localhost;dbname=condor-tutorial',
 			'emulatePrepare' => true,
-			'username' => 'postgres',
-			'password' => 'postgresdba',
+			'username' => 'condor',
+			'password' => 'C0Nd0R*4.,#CuC[]*TU?¿!:_´',
 			'charset' => 'utf8',
 		),
 		
@@ -95,6 +95,11 @@ return array(
 				*/
 			),
 		),
+		'urlManager'=>array(
+		'urlFormat'=>'path',
+		'showScriptName'=>false,
+		'caseSensitive'=>false,
+),
 	),
 
 	// application-level parameters that can be accessed
@@ -102,10 +107,8 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'pcondor@gmail.com',
-		'art-logo-name'=>'PERFECTING.',
-                'art-logo-text'=>'THE RESULTS',
 	),
 	
 	'language'=>'es',
-	'theme'=>'biskit',
+	'theme'=>'classic',
 );

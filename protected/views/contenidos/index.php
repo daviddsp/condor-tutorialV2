@@ -1,12 +1,17 @@
 <?php
 $this->breadcrumbs=array(
-	'Contenidoses',
+	'Contenidos',
 );
 
-$this->menu=array(
-	array('label'=>'Create Contenidos','url'=>array('create')),
-	array('label'=>'Manage Contenidos','url'=>array('admin')),
-);
+$this->widget('bootstrap.widgets.TbTabs', array(
+	'type'=>'pills',
+	'tabs'=>array(
+			array('label'=>'Crear Contenidos','url'=>array('create')),
+			array('label'=>'Gestión de Contenidos','url'=>array('admin')),	
+			array('label'=>'Regresar a Temas','url'=>array('Temas/index')),	
+			),
+		));
+
 ?>
 
 <h1>Contenidoses</h1>

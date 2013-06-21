@@ -37,7 +37,7 @@ class UsuarioController extends Controller
 			),
 			
 			array('allow', // el usuario que visite el sistema tiene la oportunidad de crearse una cuenta
-				'actions'=>array('create'),
+				'actions'=>array('create','update'),
 				'users'=>array('*'),
 			),
 			array('deny',  // deny all users

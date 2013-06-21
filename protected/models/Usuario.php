@@ -79,8 +79,8 @@ class Usuario extends CActiveRecord
 			'username' => 'Username',
 			'password' => 'Password',
 			'perfil' => 'Perfil',
-			'created_at' => 'Created At',
-			'last_login' => 'Last Login',
+			'created_at' => 'Fecha Creación de la Cuenta:',
+			'last_login' => 'Último Inicio de Sessión',
 		);
 	}
 

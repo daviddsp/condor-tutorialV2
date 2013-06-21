@@ -8,6 +8,7 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 	'tabs'=>array(
 	array('label'=>'Crear Lecciones','url'=>array('create')),
 	array('label'=>'Gestión de Lecciones','url'=>array('admin')),
+	array('label'=>'Regresar a Temas','url'=>array('/Temas/index')),
 	),
 ));
 

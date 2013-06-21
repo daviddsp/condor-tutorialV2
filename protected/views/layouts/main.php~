@@ -2,9 +2,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>	
-	<link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/condor-logo.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.png" type="image/x-icon" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+	<meta name="language" content="es" />
 
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
@@ -29,20 +29,22 @@
 <?php
 /*se crea la variable $admin paraque los usuarios con el perfil de administradores puedan tener prioridades que otros usuarios no tendran*/ 
 $admin = (isset(Yii::app()->user->perfil) and Yii::app()->user->perfil == 'admin') ? true : false ;
+/*se crea la variable $admin paraque los usuarios con el perfil de administradores puedan tener prioridades que otros usuarios no tendran*/ 
+
 $this->widget('bootstrap.widgets.TbNavbar', array(
 				'type'=>'inverse', // null or 'inverse'
 				'brand'=>'Cóndor',
 				'fixed' => 'top',
-				'brandUrl'=>array('/site/index'),
+				'brandUrl'=>array('/index.php'),
 				'collapse'=>true, // requires bootstrap-responsive.css
 				'items'=>array(
 				array(
 					'class'=>'bootstrap.widgets.TbMenu',
 					'items'=>array(
-						array('label'=>'Inicio', 'url'=>array('/site/index')),
+						array('label'=>'Inicio', 'url'=>array('/index.php')),
 						/*en esta linea es donde limitamos a que los usuarios vean los modulos que querramos*/
-						array('label'=>'G.Contenido', 'url'=>array('/Temas/index'), 'visible' => $admin), /*usuario administrador*/
-                  array('label'=>'Temas', 'url'=>array('/Temas_g/index')), /*usuario general*/
+						array('label'=>'G.Contenido', 'url'=>array('/Temas'), 'visible' => $admin), /*usuario administrador*/
+                  		array('label'=>'Temas', 'url'=>array('/Temas_g/index')), /*usuario general*/
 						//array('label'=>'Usuario', 'url'=>array('/usuario/admin')),
 						array('label'=>'Usuarios', 'url'=>array('/usuario/admin'), 'visible' => $admin),
 						array('label'=>'¿Quienes Somos?', 'url'=>array('/site/page', 'view'=>'about'),),
@@ -74,7 +76,7 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
 	<?php endif?>
 
 	<div style="text-align: right;">
-<?php if(!Yii::app()->user->isGuest and isset(Yii::app()->user->last_login)){
+	<?php if(!Yii::app()->user->isGuest and isset(Yii::app()->user->last_login)){
 echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::app()->user->last_login);} ?>
 </div>
 
@@ -88,33 +90,33 @@ echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::ap
             alt="¡CUC Logo!" />
 		Colegio Universitario de Caracas - PNFI. <?php echo date('Y'); ?>.<br/>
 		Coordinación de Desarrollo Tecnológico.<br/>
-		Licencia de Creative Commons Reconocimiento-CompartirIgual 3.0 Unported. <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES"><br/>
+		Licencia de Creative Commons Reconocimiento-CompartirIgual 3.0 Unported.<br/>
 		<?php echo Yii::app()->params['adminEmail']?>
 		
 			<article class="herramientas">
 			
         	<img style="border:0;width:58px;height:31px"
-            src="./images/HTML5-Logo.png"
+            src="../images/HTML5-Logo.png"
             alt="¡HTML5!" />
 
             
             <img style="border:0;width:58px;height:31px"
-            src="./images/HTML5-Styling.png"
+            src="../images/HTML5-Styling.png"
             alt="¡HTML5 CSS3!" />
             
             
             <img style="border:0;width:58px;height:31px"
-            src="./images/HTML5-Multimedia.png"
+            src="../images/HTML5-Multimedia.png"
             alt="¡HTML5 Multimedia!" />
             
             
             <img style="border:0;width:58px;height:31px"
-            src="./images/HTML5-3D-Effects.png"
+            src="../images/HTML5-3D-Effects.png"
             alt="¡HTML5 Multimedia!" />            
             
             
             <img style="border:0;width:58px;height:31px"
-            src="./images/HTML5-Semantics.png"
+            src="../images/HTML5-Semantics.png"
             alt="¡HTML5 Semantica!" />
             
 			</article>
@@ -129,11 +131,11 @@ echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::ap
             			alt="¡HTML5 Semantica!" />-->
             
             			<a href="https://twitter.com/ProyectoCondor"><img style="border:1;" align="right"
-            			src="./images/twitter.png"
+            			src="../images/twitter.png"
             			alt="¡Twitter!" />
             		
             			<img style="border:1;" align="right"
-            			src="./images/google-White.png"
+            			src="../images/google-White.png"
             			alt="¡Google plus!" />
 			</aside>	
 				<div class="btn-toolbar">
@@ -146,11 +148,11 @@ echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::ap
 			<aside>
 				<a>
 				<!--<img style="border:1;width:58px;height:58px" align="right"
-            			src="./images/facebook.png"
+            			src="../images/facebook.png"
             			alt="¡HTML5 Semantica!" />-->
             
             			<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES"> <img style="border:1;" align="left"
-            			src="./images/88x31.png"
+            			src="././images/88x31.png"
             			alt="¡Creative Commons!" Licencia  /><br>
             		
 			</aside>	

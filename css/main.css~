@@ -5,7 +5,7 @@ body
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
 	/*background-color: blue;*/
-	background: url(../images/nubes3.png) no-repeat;
+	background: url(../images/nube3.png) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +51,14 @@ footer
 	font-size: 0.8em;
 	text-align: center;
 	border-top: 1px solid #040202;
+}
+
+
+herramientas 
+{
+background-image:url(../images/HTML5-Logo.png);
+
+
 }
 
 #logo
