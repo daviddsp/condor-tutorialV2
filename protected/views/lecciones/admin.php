@@ -1,13 +1,21 @@
 <?php
 $this->breadcrumbs=array(
 	'Lecciones'=>array('index'),
-	'Manage',
+	'Gestión',
 );
 
-$this->menu=array(
+$this->widget('bootstrap.widgets.TbTabs', array(
+	'type'=>'tabs', // 'tabs' or 'pills'
+	'tabs'=>array(
+	array('label'=>'Crear Lecciones','url'=>array('create')),
+	array('label'=>'Regresar a Lecciones','url'=>array('/Temas/index')),
+	),
+));
+
+/*$this->menu=array(
 	array('label'=>'List Lecciones','url'=>array('index')),
 	array('label'=>'Create Lecciones','url'=>array('create')),
-);
+);*/
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){

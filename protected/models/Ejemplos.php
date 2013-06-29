@@ -66,8 +66,8 @@ class Ejemplos extends CActiveRecord
 	{
 		return array(
 			'id_ejemplos' => 'Id Ejemplos',
-			'nb_ejemplos' => 'Nb Ejemplos',
-			'cont_ejercicios' => 'Cont Ejercicios',
+			'nb_ejemplos' => 'Nombre de los Ejemplos',
+			'cont_ejercicios' => 'Contenido Ejercicios',
 		);
 	}
 

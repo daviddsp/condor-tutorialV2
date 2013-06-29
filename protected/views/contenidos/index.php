@@ -14,7 +14,7 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 
 ?>
 
-<h1>Contenidoses</h1>
+<h1>Contenidos</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 	'dataProvider'=>$dataProvider,

@@ -96,27 +96,27 @@ echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::ap
 			<article class="herramientas">
 			
         	<img style="border:0;width:58px;height:31px"
-            src="../images/HTML5-Logo.png"
+            src="./images/HTML5-Logo.png"
             alt="¡HTML5!" />
 
             
             <img style="border:0;width:58px;height:31px"
-            src="../images/HTML5-Styling.png"
+            src="./images/HTML5-Styling.png"
             alt="¡HTML5 CSS3!" />
             
             
             <img style="border:0;width:58px;height:31px"
-            src="../images/HTML5-Multimedia.png"
+            src="./images/HTML5-Multimedia.png"
             alt="¡HTML5 Multimedia!" />
             
             
             <img style="border:0;width:58px;height:31px"
-            src="../images/HTML5-3D-Effects.png"
+            src="./images/HTML5-3D-Effects.png"
             alt="¡HTML5 Multimedia!" />            
             
             
             <img style="border:0;width:58px;height:31px"
-            src="../images/HTML5-Semantics.png"
+            src="./images/HTML5-Semantics.png"
             alt="¡HTML5 Semantica!" />
             
 			</article>
@@ -127,11 +127,11 @@ echo "Último Acceso: ".Yii::app()->dateFormatter->format("d-M-y H:M a", Yii::ap
 			<aside>
 				<a>
 				<!--<img style="border:1;width:58px;height:58px" align="right"
-            			src="./images/facebook.png"
+            			src="../images/facebook.png"
             			alt="¡HTML5 Semantica!" />-->
             
             			<a href="https://twitter.com/ProyectoCondor"><img style="border:1;" align="right"
-            			src="../images/twitter.png"
+            			src="./images/twitter.png"
             			alt="¡Twitter!" />
             		
             			<img style="border:1;" align="right"
