@@ -8,8 +8,8 @@
 	<?php echo CHtml::encode($data->idlecciones->nb_lecciones); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_ejemplos')); ?>:</b>
-	<?php echo CHtml::encode($data->id_ejemplos); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Ejemplo')); ?>:
+	<?php echo CHtml::encode($data->idEjemplos->cont_ejercicios); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_ejercicios')); ?>:</b>

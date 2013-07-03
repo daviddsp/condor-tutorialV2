@@ -9,9 +9,9 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->dropDownList($model,'id_lecciones', CHtml::listData(Lecciones::model()->findAll(), 'id_lecciones', 'nb_lecciones'),array('prompt'=>'Seleccione la Lección','class'=>'span5')); ?>
+	<?php echo $form->dropDownList($model,'id_lecciones', CHtml::listData(Lecciones::model()->findAll(), 'id_lecciones', 'nb_lecciones'),array('prompt'=>'Seleccione la Lección','class'=>'span5'));?><br />
 	
-	<?php echo $form->textFieldRow($model,'id_ejemplos',array('class'=>'span5')); ?>
+	<?php echo $form->dropDownList($model,'id_ejemplos', CHtml::listData(Ejemplos::model()->findAll(), 'id_ejemplos', 'nb_ejemplos'),array('prompt'=>'Seleccione el ejemplo','class'=>'span5')); ?>
 
 	<?php echo $form->textFieldRow($model,'id_ejercicios',array('class'=>'span5')); ?>
 
