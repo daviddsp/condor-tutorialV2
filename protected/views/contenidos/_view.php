@@ -8,20 +8,20 @@
 	<?php echo CHtml::encode($data->idlecciones->nb_lecciones); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Ejemplo')); ?>:
-	<?php echo CHtml::encode($data->idEjemplos->cont_ejercicios); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Ejemplos')); ?>:
+	<?php echo CHtml::encode($data->idEjemplos->nb_ejemplos); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_ejercicios')); ?>:</b>
-	<?php echo CHtml::encode($data->id_ejercicios); ?>
+	<?php echo CHtml::encode($data->idEjercicios->nb_ejercicios); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_fuente_referencias')); ?>:</b>
-	<?php echo CHtml::encode($data->id_fuente_referencias); ?>
+	<?php echo CHtml::encode($data->idFuenteReferencias->fuente_referencias); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_multimedia')); ?>:</b>
-	<?php echo CHtml::encode($data->id_multimedia); ?>
+	<?php echo CHtml::encode($data->idMultimedia->url_multimedia); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('descrip_contenidos')); ?>:</b>

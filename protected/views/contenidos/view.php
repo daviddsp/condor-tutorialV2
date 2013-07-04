@@ -35,10 +35,10 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 	'attributes'=>array(
 		'id_contenidos',
 		'idlecciones.nb_lecciones',
-		'idEjemplos.cont_ejercicios',
-		'id_ejercicios',
-		'id_fuente_referencias',
-		'id_multimedia',
+		'idEjemplos.cont_ejemplos',
+		'idEjercicios.cont_ejercicios',
+		'idFuenteReferencias.fuente_referencias',
+		'idMultimedia.url_multimedia',
 		array(
 			'name'=>'descrip_contenidos',
 			'type'=>'raw',
