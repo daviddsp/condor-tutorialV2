@@ -21,12 +21,14 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_multimedia')); ?>:</b>
-	<?php echo CHtml::encode($data->idMultimedia->url_multimedia); ?>
+	<?php #echo CHtml::encode($data->idMultimedia->url_multimedia); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('descrip_contenidos')); ?>:</b>
 	<?php //echo CHtml::encode($data->descrip_contenidos); ?>
 	<br />
+	
+
 	
 	<?php echo $data->descrip_contenidos; ?> <!--Hago un echo para que me muestre el contenido html dentro de TbListView-->
 	

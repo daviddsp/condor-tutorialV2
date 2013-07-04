@@ -27,7 +27,7 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 );*/
 ?>
 
-<h1>Vista de Contenidos Nº: <?php echo $model->id_contenidos; ?></h1>
+
 <!--<?//php echo $model->descrip_contenidos; ?> #Sirve para imprimir el descripcion del contenido en la pagina-->
 <!--<?#php echo $model->id_multimedia; ?>	   #Sirve para imprimir el id_multimedia del contenido en la pagina-->
 <?php $this->widget('bootstrap.widgets.TbDetailView',array(
@@ -44,4 +44,6 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 			'type'=>'raw',
 		),
 	),
-)); ?>
+)); 
+
+?>
