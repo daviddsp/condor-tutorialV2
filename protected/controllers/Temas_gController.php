@@ -48,10 +48,29 @@ class Temas_gController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
+	/*public function actionView($id)
 	{
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+		));
+	}*/
+	
+	public function actionView($id)
+	{
+$sql_count = "select count(*) from lecciones l 
+		left join temas t on t.id_tema = l.id_temas
+		where t.temas = '$id'"; 
+
+	$sql="select l.nb_lecciones, l.id_temas, l.l.id_lecciones
+ from lecciones l 
+		left join temas t on t.id_tema = l.id_temas
+		where t.id_tema = '$id' order by l.id_lecciones desc; ";
+		$lecciones = Yii::app() -> db -> createCommand($sql) ->  query();
+		$count_lecciones = Yii::app() -> db -> createCommand($sql_count) ->  queryScalar();
+//var_dump($declaracion);
+
+		$this->render('view',array(
+			'model'=>$this->loadModel($id),'lecciones'=>$lecciones,'count_declaracion'=>$count_lecciones,
 		));
 	}
 	

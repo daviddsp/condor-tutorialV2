@@ -32,7 +32,7 @@ class LeccionesController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -157,7 +157,7 @@ class LeccionesController extends Controller
 	{
 		$model=Lecciones::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La página solicitada no existe.');
 		return $model;
 	}
 

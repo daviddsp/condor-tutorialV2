@@ -70,7 +70,7 @@ class TemasController extends Controller
 		{
 			$model->attributes=$_POST['Temas'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_temas));
+				$this->redirect(array('index','id'=>$model->id_temas));
 		}
 
 		$this->render('create',array(

@@ -68,9 +68,9 @@ class Lecciones extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_lecciones' => 'Id Lecciones',
-			'id_temas' => 'Id Temas',
-			'nb_lecciones' => 'Nb Lecciones',
+			'id_lecciones' => 'Nº de la Lección',
+			'id_temas' => 'Id del Tema',
+			'nb_lecciones' => 'Nombre de la Lección',
 		);
 	}
 
@@ -85,23 +85,12 @@ class Lecciones extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+		$criteria->compare('temas.id_temas',$_GET["tema"]);  		
 		$criteria->compare('id_lecciones',$this->id_lecciones);
 		$criteria->with =array('temas');
 		$criteria->addSearchCondition('temas.nb_temas', $this->id_temas);
 		$criteria->compare('nb_lecciones',$this->nb_lecciones,true);
 
-		array(
-'header'=>'Temas',
-// Nombre de la columna en el CGridView
-'name'=>'nb_temas',
-// Nombre del dato en el modelo
-'value' => '$data->temas->id_temas',
-// Valor a mostrar
-'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
-// Opciones HTML
-'filter' => CHtml::listData(TipoOrgG::model()->findAll(), 'id_temas',
-'nb_temas'), // Colocamos un combo en el filtro
-),
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
