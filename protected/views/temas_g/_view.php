@@ -15,7 +15,7 @@
 			'buttons'=>array(
 				'view' => array(
 					'label'=>'Ver Lecciones',
-					'url'=>"CHtml::normalizeUrl(array('/Lecciones_g/view', 'id'=>\$data->id_temas))",
+					'url'=>"CHtml::normalizeUrl(array('/Temas_g/view', 'id'=>\$data->id_temas))",
 					'imageUrl'=>Yii::app()->request->baseUrl.'../img/update.png', //ruta de la imagen del boton que queremos agregar
 					'options' => array('class'=>'temas'),
 		  		),

@@ -58,19 +58,19 @@ class Temas_gController extends Controller
 	public function actionView($id)
 	{
 $sql_count = "select count(*) from lecciones l 
-		left join temas t on t.id_tema = l.id_temas
-		where t.temas = '$id'"; 
+		left join temas t on t.id_temas = l.id_temas
+		where t.id_temas = '$id'"; 
 
-	$sql="select l.nb_lecciones, l.id_temas, l.l.id_lecciones
+	$sql="select l.nb_lecciones, l.id_temas, l.id_lecciones
  from lecciones l 
-		left join temas t on t.id_tema = l.id_temas
-		where t.id_tema = '$id' order by l.id_lecciones desc; ";
+		left join temas t on t.id_temas = l.id_temas
+		where t.id_temas = '$id' order by l.id_lecciones desc; ";
 		$lecciones = Yii::app() -> db -> createCommand($sql) ->  query();
 		$count_lecciones = Yii::app() -> db -> createCommand($sql_count) ->  queryScalar();
 //var_dump($declaracion);
 
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),'lecciones'=>$lecciones,'count_declaracion'=>$count_lecciones,
+			'model'=>$this->loadModel($id),'lecciones'=>$lecciones,'count_lecciones'=>$count_lecciones,
 		));
 	}
 	

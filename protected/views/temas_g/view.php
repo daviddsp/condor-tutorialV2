@@ -21,8 +21,18 @@ $this->breadcrumbs=array(
 if($count_lecciones == 0){
 	$html = 'sin lección';
 }else{
+	
+	 $box = $this->beginWidget('bootstrap.widgets.TbBox', array(
+'title' => 'Lista de Lecciones',
+'headerIcon' => 'icon-th-list',
+// when displaying a table, if we include bootstra-widget-table class
+// the table will be 0-padding to the box
+'htmlOptions' => array('class'=>'bootstrap-widget-table'),
 
-	$html='<table><tr><td colspan="8" style="text-align: center;">Declaraciones</td></tr>';
+));
+
+
+	$html='<table><tr><td colspan="8" style="text-align: center;">Lecciones</td></tr>';
 	foreach($lecciones as $fila){  
 		$html.= "<tr class='principal' >
 			<td  align='center' style=' border: 1px solid #AAAAAA;padding: 0.2em;'>".$fila['id_lecciones']."</td>
@@ -35,5 +45,6 @@ if($count_lecciones == 0){
 }
 
 echo $html;
+$this->endWidget();
 
 ?>
