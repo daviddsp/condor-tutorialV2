@@ -48,7 +48,9 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'perfil'); ?>
-		<?php echo $form->textField($model,'perfil',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->dropDownList($model, 'perfil', array('Seleccione su perfil ...!', 'Estudiante', 'Informático', 'DBA', 'Programador', 'Otro')); ?>
+		
+		<!--<?php // echo $form->textField($model,'perfil',array('size'=>10,'maxlength'=>10)); ?>-->
 		<?php echo $form->error($model,'perfil'); ?>
 	</div>
 
