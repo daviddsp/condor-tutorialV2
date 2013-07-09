@@ -85,7 +85,7 @@ class Lecciones extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('temas.id_temas',$_GET["tema"]);  		
+		$criteria->compare('temas.id_temas',$_GET["tema"]);
 		$criteria->compare('id_lecciones',$this->id_lecciones);
 		$criteria->with =array('temas');
 		$criteria->addSearchCondition('temas.nb_temas', $this->id_temas);

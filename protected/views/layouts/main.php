@@ -43,7 +43,7 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
 					'items'=>array(
 						array('label'=>'Inicio', 'url'=>array('/index.php')),
 						/*en esta linea es donde limitamos a que los usuarios vean los modulos que querramos*/
-						array('label'=>'G.Contenido', 'url'=>array('/Temas'), 'visible' => $admin), /*usuario administrador*/
+						array('label'=>'G.Contenido', 'url'=>array('/Temas/admin'), 'visible' => $admin), /*usuario administrador*/
                   		array('label'=>'Temas', 'url'=>array('/Temas_g/index')), /*usuario general*/
 						//array('label'=>'Usuario', 'url'=>array('/usuario/admin')),
 						array('label'=>'Usuarios', 'url'=>array('/usuario/admin'), 'visible' => $admin),

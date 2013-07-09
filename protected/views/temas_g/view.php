@@ -19,7 +19,7 @@ $this->breadcrumbs=array(
 )); 
 
 if($count_lecciones == 0){
-	$html = 'sin lección';
+	$html = 'No tiene lecciones Asociadas';
 }else{
 	
 	 $box = $this->beginWidget('bootstrap.widgets.TbBox', array(
@@ -31,9 +31,8 @@ if($count_lecciones == 0){
 
 ));
 
-
 	$html='<table><tr><td colspan="8" style="text-align: center;">Lecciones</td></tr>';
-	foreach($lecciones as $fila){  
+	foreach($lecciones as $fila){				  
 		$html.= "<tr class='principal' >
 			<td  align='center' style=' border: 1px solid #AAAAAA;padding: 0.2em;'>".$fila['id_lecciones']."</td>
 			<td  align='center'  style='border: 1px solid #AAAAAA;padding: 0.2em;'>".$fila['nb_lecciones']."</td>" .
@@ -43,7 +42,6 @@ if($count_lecciones == 0){
 	$html.='</table>';
 
 }
-
 echo $html;
 $this->endWidget();
 
