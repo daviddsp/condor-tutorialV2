@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 );*/
 ?>
 
-<h1>Temas</h1>
+<h1>Lista de Temas</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 	'dataProvider'=>$dataProvider,
